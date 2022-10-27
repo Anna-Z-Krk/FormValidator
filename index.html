@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <title>Form validator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="">
+        <h1>Register! (pls)</h1>
+        <div class="form-box">
+          <label for="username">User name:</label>
+          <input type="text" id="username" placeholder="What is your name?" />
+          <p class="error-text">error</p>
+        </div>
+        <div class="form-box">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Write your password."
+          />
+          <p class="error-text">error</p>
+        </div>
+        <div class="form-box">
+          <label for="password2">Repeat password:</label>
+          <input
+            type="password"
+            id="password2"
+            placeholder="Repeat the password."
+          />
+          <p class="error-text">error</p>
+        </div>
+        <div class="form-box">
+          <label for="email">Email adress:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="What is your email adress?"
+          />
+          <p class="error-text">error</p>
+        </div>
+        <div class="control-buttons">
+          <button class="clear">Clear form</button>
+          <button class="send">Send</button>
+        </div>
+        <div class="popup">
+          <p>The form has been sent correctly.</p>
+          <p>Thank you :-)</p>
+          <button class="close">Close</button>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
