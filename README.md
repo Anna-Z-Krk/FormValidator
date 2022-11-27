@@ -1,10 +1,10 @@
-# simple_form_validator
-Simple form validation with Vanilla JS.
+# Form Validator
+## Form validation with Vanilla JS.
 
 Visit it here: https://anna-z-krk.github.io/FormValidator/
 
 AIM:
-- creating form with Vanillia JS validator
+- creating form with Vanilla JS validator
 
 TOOLS:
 - Visual Studio Code
