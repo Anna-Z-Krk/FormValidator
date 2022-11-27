@@ -1,6 +1,8 @@
 # Form Validator
 ## Form validation with Vanilla JS.
 
+![Preview:](https://github.com/Anna-Z-Krk/FormValidator/blob/main/form_validator_prev.png)
+
 Visit it here: https://anna-z-krk.github.io/FormValidator/
 
 AIM:
